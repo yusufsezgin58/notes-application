@@ -1,11 +1,11 @@
 .left {
     width: 50%;
-    padding-right: 2%;
+    padding-right: 4%;
     height: auto;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    padding-left: 2%;
+    padding-left: 4%;
     padding-top: 2%;
     background-color: #2C3333;
     padding-bottom: 2%;

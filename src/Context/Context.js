@@ -1,11 +1,16 @@
-import { createContext } from "react";
+import { createContext, useState } from "react";
 
 const ThemeContext = createContext()
 
 export const ThemeProvider = ( { children } ) => {
 
-    const data = {
+    let INFS = [
+    ]
 
+    const [infs, setInfs] = useState(INFS)
+
+    const data = {
+        infs, setInfs
     }
     
     return (
